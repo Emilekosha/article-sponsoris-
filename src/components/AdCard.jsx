@@ -4,9 +4,9 @@ export default function AdCard() {
   return (
     <a
       href="https://emilekosha.github.io/LePerroquet_1/actualites/sponsors.html"
-      target="_blank"
+      
       rel="noopener noreferrer"
-      className="block bg-gray-50 rounded-lg overflow-hidden  max-w-md mx-auto "
+      className="block bg-white rounded-lg overflow-hidden  max-w-md mx-auto "
     >
       <img
         src={PubImg}
@@ -15,12 +15,13 @@ export default function AdCard() {
       />
       <div className="p-4">
        
-        <p className="text-lg font-semibold text-gray-800 leading-snug">
+       
+         <p className="text-sm text-gray-500 font-semibold mb-2">
+          Sponsorisé  <span className="text-gray-700 font-bold"></span>
+        </p>
+         <p className="text-lg font-semibold text-gray-800 leading-snug">
           L'Art de sublimer la brillance et<br />
           la pureté de votre quotidien !
-        </p>
-         <p className="text-sm text-gray-500 font-semibold mt-2">
-          Sponsorisé  <span className="text-gray-700 font-bold"></span>
         </p>
       </div>
     </a>
