@@ -8,7 +8,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
- "homepage": "https://Emilekosha.github.io/le-perroquet-articles",
+  "homepage": "https://Emilekosha.github.io/le-perroquet-articles",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
